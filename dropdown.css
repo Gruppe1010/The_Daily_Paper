@@ -1,0 +1,68 @@
+.dropbtn 
+{
+  	font-family: 'Roboto Slab', serif;
+  	font-size: 12px;
+  	color: #999;
+  	background-color: #222;
+	padding-right: 13px;
+	padding-left: 10px;
+	padding-top: 12px;
+	padding-bottom: 13px;
+  	/*Fordi der automatisk er border på buttons*/
+  	border: none;
+  	outline: none;
+  	border-right: 1px solid #333;
+}
+
+.dropdown
+{
+		position: relative;
+		/*inline-block frem for bare inline, da links skal stå under hinanden*/
+		display: inline-block;
+	}
+
+
+	.dropdowncontent 
+	{
+	display: none;
+	position: absolute;
+	background-color: #222;
+	min-width: 150px;
+	z-index: 1;
+}
+
+.dropdowncontent a
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	color: #999;
+	padding: 9px 9px;
+	text-decoration: none;
+	display: block;
+	border-top: 1px solid #333;
+}
+
+/* Change color of dropdown links on hover */
+.dropdowncontent a:hover 
+{
+	background-color: #333;
+	color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdowncontent 
+{
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn 
+{
+	background-color: #333;
+	color: white;
+}
+
+.fa-caret-down
+{
+	color: #555;
+}

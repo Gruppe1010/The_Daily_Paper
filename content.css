@@ -1,0 +1,149 @@
+.todaysnews
+{
+	border: 2px solid white;
+	margin: 10px;
+	width: 633px;
+	position: relative;
+}
+
+.todaysnewsdate
+{
+	font-size: 12px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	width: 120px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: absolute;
+	bottom: 75px;
+	left: 20px;
+}
+
+.todaysnewstitle
+{
+	font-size: 22px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white;
+	background-color: #222;
+	opacity: 90%;
+	width: 550px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: absolute;
+	bottom: 31px;
+	left: 20px;
+}
+
+a.linktodaysnews:link 
+{
+	color: white;
+	text-decoration: none;
+}
+
+a.linktodaysnews:visited 
+{
+	color: white;
+}
+
+.latest
+{
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	width: 618px;
+	background-color: #222;
+	margin-left: 24px;
+	border: 2px solid #222;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+}
+
+.fa-arrow-circle-right
+{
+	color: #999;
+	float: right;
+	padding-top: 2px;
+	padding-right: 10px;
+}
+
+.contentwrapper
+{
+	width: 637px;
+	position: relative;
+	margin: 10px;
+}
+
+.latestnews
+{
+	width: 284px;
+	border: 2px solid white;
+	margin-left: 5px;
+	margin-top: 6px;
+}
+
+.latestnewsdate
+{
+	color: grey;
+	font-size: 11px;
+	font-family: 'Roboto Slab', serif;
+	position: absolute;
+	top: 10px;
+	right: 160px;
+}
+
+a.linklatestnewsdate:link
+{
+	color: grey;
+	text-decoration: none;
+}
+
+a.linklatestnewsdate:visited
+{
+	color: grey;
+}
+
+
+.linktitlelatestnews
+{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	color: #222;
+	position: absolute;
+	width: 320px;
+	top: 30px;
+	right: 0px;
+}
+
+a.linktitlelatestnews:link
+{
+	color: #222;
+	text-decoration: none;
+}
+
+a.linktitlelatestnews:visited
+{
+	color: #222;
+}
+
+a.linktitlelatestnews:hover
+{
+	color: #999;
+}
+
+.summarylatestnews
+{
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+	color: #444;
+	position: absolute;
+	width: 330px;
+	top: 70px;
+	right: -10px;
+	line-height: 20px;
+}

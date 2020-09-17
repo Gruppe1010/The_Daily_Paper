@@ -1,17 +1,32 @@
 <!doctype html>
 <html>
 <head>
-	<title>RokokoPosten|Siden 1732</title>
-	<link href="style1.css" type="text/css" rel="stylesheet">
+	<title>RokokoPosten | Siden 1732</title>
+	<link rel="stylesheet" id="google-fonts-2-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab&ver=5.3" type="text/css" media="all">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link href="topbar.css" type="text/css" rel="stylesheet">
+	<link href="dropdown.css" type="text/css" rel="stylesheet">
+	<link href="menubar.css" type="text/css" rel="stylesheet">
+	<link href="content.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<div class="wrapper">
 		<div class="topbar"> 
 			<div class="topbarheadline"><span><a class="linktopbar" href = "https://rokokoposten.dk/rokokopostens-historie/" > RokokoPostens Historie </a></span></div>
-			<div class="topbarheadline"><span><a class="linktopbar" href = "https://rokokoposten.dk/om-rokokoposten-aps/" > Om RokokoPostens </a></span></div>
-			<div class="searchbar" tabindex="1"><span> Søg… </span></div>
+			<div class="dropdown">
+				<button class="dropbtn"> Om RokokoPostens <i class="fa fa-caret-down"></i></button>
+				<div class="dropdowncontent">
+					<a href="https://rokokoposten.dk/annoncoerinfo/"> Annoncørinfo </a>
+					<a href="https://rokokoposten.dk/kontakt/"> Skriv til RokokoPosten </a>
+					<a href="https://rokokoposten.dk/folkeaktie/"> Støt RokokoPosten </a>
+					<a href="https://rokokoposten.dk/om-rokokoposten-aps/"> Om RokokoPosten ApS </a>
+				</div>
+			</div>
+			<div class="searchbar" tabindex="1"><span> Søg… <i class="fa fa-search"></i></span></div>
 		</div>
-		<div class="logo"><a href = "https://rokokoposten.dk/"><img src="http://rokokoposten.dk/wp-content/themes/yaaburnee-themes/lib/img/yaaburnee_logo.png" alt="Rokokoposten logo" class="logo"> </div>
+		<div class="logo">
+			<a href = "https://rokokoposten.dk/"><img src="http://rokokoposten.dk/wp-content/themes/yaaburnee-themes/lib/img/yaaburnee_logo.png" alt="rokokoposten_logo.png" class="logo"> 
+		</div>
 		<div class="menubar">
 			<div class="menubarheadline"><span><a class="linkmenubar" href = "https://rokokoposten.dk/"> FORSIDE </a></span></div>
 			<div class="menubarheadline"><span><a class="linkmenubar" href = "https://rokokoposten.dk/home/indland/"> INDLAND </a></span></div>
@@ -23,7 +38,23 @@
 			<div class="menubarheadline"><span><a class="linkmenubar" href = "https://rokokoposten.dk/home/erhverv"> ERHVERV </a></span></div>
 			<div class="menubarheadline"><span><a class="linkmenubar" href = "https://rokokoposten.dk/home/sport/"> SPORT </a></span></div>
 			<div class="menubarheadline"><span><a class="linkmenubar" href = "https://rokokoposten.dk/home/interview/"> INTERVIEW </a></span></div>
-		</div>	
+		</div>
+		<div class="todaysnews">
+			<a href = "https://rokokoposten.dk/2020/09/17/borgerforslag-foedsler-er-irreversible-forbyd-dem/"><img src="https://rokokoposten.dk/wp-content/uploads/2020/09/Foto-badnews86-Bigstock-858x350_c.jpg" alt="Babybillede.jpg" class="todaysnews"></a>
+			<div class="todaysnewsdate"><span>17. september, 2020</span></div>
+			<div class="todaysnewstitle"><a class="linktodaysnews" href="https://rokokoposten.dk/2020/09/17/borgerforslag-foedsler-er-irreversible-forbyd-dem/">Borgerforslag: Fødsler er irreversible - forbyd dem!</a></div>
+		</div>
+		<div class="latest">
+			<span>SENESTE<a href="https://rokokoposten.dk/"><i class="fa fa-arrow-circle-right"></i></a></span>
+		</div>
+		<div class="contentwrapper">
+			<div class="latestnews">
+				<a href = "https://rokokoposten.dk/2020/09/16/24-aarige-juliane-synes-bare-ikke-der-rigtig-er-corona-mere/"><img src="https://rokokoposten.dk/wp-content/uploads/2020/09/Foto-style-photographs-Bigstock-400x300_c.jpg" alt="damemandvin.jpg" class="latestnews"></a> 
+				<span class="latestnewsdate"> 16 SEPTEMBER, 2020 · <a class="linklatestnewsdate" href="https://rokokoposten.dk/category/indland/">INLAND</a></span>
+				<a class="linktitlelatestnews" href="https://rokokoposten.dk/category/indland/">24-årige Juliane synes bare ikke, der rigtig er corona mere</a>
+				<p class="summarylatestnews">Det er så hyggeligt at hænge ud med kæreste og venner i supermarkedet, synes Juliane Ingerslev, der ikke mener, at coronasmitte er et argument for at lade være.</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

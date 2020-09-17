@@ -1,0 +1,59 @@
+.menubar
+{
+	padding-left: 0px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 3px solid #222;
+	margin: 0px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.menubarheadline
+{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	display: inline;
+	color: #222;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 16px;
+}
+
+a.linkmenubar:link 
+{
+	color: #222;
+	text-decoration: none;
+}
+
+a.linkmenubar:visited 
+{
+	color: #222;
+}
+
+a.linkmenubar:hover 
+{
+	color: white;
+}
+
+a.linkmenubar:active
+{
+	color: white;
+}
+
+div.menubarheadline:hover
+{
+	background-color: #222;
+}
+
+div.menubarheadline:hover a
+{
+	color: white;
+}
+
+.searchbar:focus
+{
+	width: 200px;
+	outline: none;
+}

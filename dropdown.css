@@ -10,25 +10,25 @@
 	padding-bottom: 13px;
   	/*Fordi der automatisk er border på buttons*/
   	border: none;
+  	/*Fordi der automatisk er outline på buttons*/
   	outline: none;
   	border-right: 1px solid #333;
 }
 
 .dropdown
 {
-		position: relative;
-		/*inline-block frem for bare inline, da links skal stå under hinanden*/
-		display: inline-block;
-	}
+	position: relative;
+	/*inline-block frem for bare inline, da links boksen skal stå under hinanden*/
+	display: inline-block;
+}
 
-
-	.dropdowncontent 
-	{
+.dropdowncontent 
+{
 	display: none;
 	position: absolute;
 	background-color: #222;
-	min-width: 150px;
-	z-index: 1;
+	width: 150px;
+	z-index: 2;
 }
 
 .dropdowncontent a
@@ -42,20 +42,17 @@
 	border-top: 1px solid #333;
 }
 
-/* Change color of dropdown links on hover */
 .dropdowncontent a:hover 
 {
 	background-color: #333;
 	color: white;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdowncontent 
 {
 	display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn 
 {
 	background-color: #333;

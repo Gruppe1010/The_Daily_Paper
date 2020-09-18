@@ -43,9 +43,12 @@ a.linkmenubar:hover
 div.menubarheadline:hover
 {
 	background-color: #222;
+	/*Hvordan får vi den til at kører nedefra?*/
+	transition: 0.5s ease;
 }
 
 div.menubarheadline:hover a
 {
 	color: white;
+
 }

@@ -1,20 +1,23 @@
 .menubar
 {
-	padding-left: 0px;
+	position: relative;
+	/*For at gøre menubaren mindre end selve sidens bredte*/
+	width: 990px;
 	border-top: 1px solid #f0f0f0;
 	border-bottom: 3px solid #222;
-	margin: 0px;
+	margin: auto;
+	/*For at give luft om bogstaverne*/
 	padding-top: 13px;
 	padding-bottom: 13px;
 }
 
 .menubarheadline
 {
-	font-size: 15px;
-	font-weight: bold;
 	font-family: 'Roboto Slab', serif;
-	display: inline;
+	font-size: 14px;
+	font-weight: bold;
 	color: #222;
+	display: inline;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-top: 15px;
@@ -37,11 +40,6 @@ a.linkmenubar:hover
 	color: white;
 }
 
-a.linkmenubar:active
-{
-	color: white;
-}
-
 div.menubarheadline:hover
 {
 	background-color: #222;
@@ -50,10 +48,4 @@ div.menubarheadline:hover
 div.menubarheadline:hover a
 {
 	color: white;
-}
-
-.searchbar:focus
-{
-	width: 200px;
-	outline: none;
 }

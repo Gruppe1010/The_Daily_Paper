@@ -1,20 +1,24 @@
+.superwrapper
+{
+	background-color: #F7F7F7;
+	margin: -10px;
+}
+
 .wrapper
 {
+	/*Position skal tilføjes for at man kan ændre på boksenes placering. Relative gør at boxen kan justeres ud fra udgangspunkt (top/venstre)*/
 	position: relative;
-	z-index: 10;
-	max-width: 1000px;
+	/*Bestemmer hvilket niveau/layer elementet skal være på. Laveste index bagerst*/
+	z-index: 1;
+	width: 1000px;
 	background-color: white;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .topbar
 {
-
-	padding-top: 0px;
 	padding-right: 20px;
-	padding-bottom: 0px;
 	padding-left: 20px;
-	margin: 0px;
 	background-color: #222;
 }
 
@@ -22,28 +26,27 @@
 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 12px;
-	width: 155px;
-	line-height: 40px;
-	display: inline;
 	color: #999;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-top: 12px;
-	padding-bottom: 13px;
+	width: 155px;
+	display: inline;
+	/*Top Right Buttom Left*/
+	padding: 12px 10px 13px 10px;
 	border-right: 1px solid #333;
 	border-left: 1px solid #333;
 }
 
 .searchbar
 {
-	float: right;
-	width: 140px;
-	padding-left: 10px;
-	line-height: 40px;
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 13px;
+	color: #999;
 	background-color: #333;
-	color: #999
+	/*Float bestmmer hvor den flyder hen i dens container*/
+	float: right;
+	width: 170px;
+	padding-left: 10px;
+	/*Hvorfor virker margin: auto;*/
+	line-height: 40px;
 }
 
 .fa-search
@@ -55,43 +58,40 @@
 
 .logo
 {
-	margin-top: 2%;
-	margin-bottom: 4%;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 a.linktopbar:link 
 {
   	color: #999;
+  	/*For at fjerne understreg*/
   	text-decoration: none;
 }
 
+/*Ellers bliver teksten lilla efter besøg*/
 a.linktopbar:visited 
 {
   	color: #999;
-  	text-decoration: none;
 }
 
-a.linktopbar:hover 
-{
-  	color: white;
-  	text-decoration: none;
-}
-
-a.linktopbar:active
-{
-  	color: white;
-  	text-decoration: none;
-}
-
+/*Gør at baggrunden bliver grå når musen er over boksen*/
 div.topbarheadline:hover
 {
 	background-color: #333;
 }
 
+/*Gør at teksten bliver hvid når musen er over boksen og ikke teksten*/
 div.topbarheadline:hover a
 {
 	color: white;
+}
+
+/*Når Søg klikkes bliver feltet større permanent til man har trykket et andet sted*/
+.searchbar:focus
+{
+	width: 230px;
+	outline: none;
 }

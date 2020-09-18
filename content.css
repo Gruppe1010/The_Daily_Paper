@@ -25,9 +25,11 @@
 {
 	font-size: 22px;
 	font-family: 'Roboto Slab', serif;
+	/*Centrerer text i box*/
 	text-align: center;
 	color: white;
 	background-color: #222;
+	/*Gør box gennemsigtig*/
 	opacity: 90%;
 	width: 550px;
 	padding-top: 8px;

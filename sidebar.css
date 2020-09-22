@@ -12,6 +12,7 @@
 	font-size: 13px;
 	color: #222;
 	width: 93%;
+	margin-top: 20px;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	position: absolute;
@@ -27,8 +28,8 @@
 	line-height: 20px;
 	width: 93%;
 	position: relative;
-	top: 50px;
-	padding-bottom: 75px;
+	top: 40px;
+	padding-bottom: 40px;
 }
 
 .linksidebartext
@@ -66,6 +67,6 @@ a.linksidebartext:hover
 {
 	color: #222;
 	position: relative;
-	top: 26.5px;
+	top: 46.5px;
 	left: 20px;
 }

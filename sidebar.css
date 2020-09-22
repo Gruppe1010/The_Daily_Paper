@@ -1,0 +1,71 @@
+.sidebarwrapper
+{
+	position: absolute;
+	width: 310px;
+	top: 240px;
+	right: 0px;
+}
+
+.sidebarheadline
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	color: #222;
+	width: 93%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	position: absolute;
+	border-top: 1px solid #222;
+	border-bottom: 3px solid #222;
+}
+
+.sidebartext
+{
+	font-family: 'Arial', serif;
+	font-size: 13px;
+	color: #444;
+	line-height: 20px;
+	width: 93%;
+	position: relative;
+	top: 50px;
+	padding-bottom: 75px;
+}
+
+.linksidebartext
+{
+	font-family: 'Arial', serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #737373;
+	line-height: 20px;
+	width: 93%;
+}
+
+a.linksidebartext:link
+{
+	text-decoration: none;
+}
+
+a.linksidebartext:activated
+{
+	text-decoration: none;
+}
+
+a.linksidebartext:hover
+{
+	color: #999;
+}
+
+.facebooklogo
+{
+	width: 96%;
+	padding-top: 50px;
+}
+
+.sidebaricon
+{
+	color: #222;
+	position: relative;
+	top: 26.5px;
+	left: 20px;
+}

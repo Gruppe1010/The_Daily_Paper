@@ -1,3 +1,11 @@
+.contentwrapper
+{
+	width: 637px;
+	position: relative;
+	display: flex;
+	margin: 10px;
+}
+
 .todaysnews
 {
 	border: 2px solid white;
@@ -73,13 +81,6 @@ a.linktodaysnews:visited
 	padding-right: 10px;
 }
 
-.contentwrapper
-{
-	width: 637px;
-	position: relative;
-	margin: 10px;
-}
-
 .latestnews
 {
 	width: 284px;
@@ -149,3 +150,4 @@ a.linktitlelatestnews:hover
 	right: -10px;
 	line-height: 20px;
 }
+
